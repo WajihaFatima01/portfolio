@@ -119,3 +119,153 @@ p{
 .btn:hover{
     background: #084298;
 }
+/* ===== Lavender & Purple Portfolio Theme ===== */
+
+:root {
+    --primary: #7c3aed;
+    --secondary: #a855f7;
+    --accent: #c084fc;
+    --background: #f5f3ff;
+    --card: #ffffff;
+    --text: #1e1b4b;
+    --muted: #64748b;
+}
+
+/* Main Background */
+body {
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f3e8ff;
+}
+
+/* Sections */
+section {
+    padding: 50px 8%;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: var(--primary);
+}
+
+/* Cards */
+.project-card,
+.experience,
+.skill-card {
+    background: var(--card);
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 18px;
+    border: 1px solid #e9d5ff;
+    box-shadow: 0 5px 18px rgba(124, 58, 237, 0.10);
+    transition: 0.3s ease;
+}
+
+.project-card:hover,
+.experience:hover,
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.18);
+}
+
+/* Buttons */
+.btn,
+button {
+    display: inline-block;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover,
+button:hover {
+    background: #6d28d9;
+}
+
+/* Profile Picture */
+.profile-img,
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #c084fc;
+    box-shadow: 0 5px 20px #ddd6fe;
+}
+
+/* Links */
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+/* Lists */
+li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #2e1065;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer a {
+    color: #e9d5ff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 30px 5%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .project-card,
+    .experience,
+    .skill-card {
+        padding: 18px;
+    }
+
+    .profile-img,
+    .profile-pic {
+        width: 140px;
+        height: 140px;
+    }
+}
