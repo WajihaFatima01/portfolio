@@ -306,3 +306,30 @@ footer {
     background: #2e1065;
     color: white;
 }
+/* Portfolio background and colors */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #f3e8ff, #ffffff) !important;
+    color: #333;
+}
+
+section {
+    background: transparent !important;
+}
+
+.hero,
+#home {
+    background: transparent !important;
+}
+
+h1, h2, h3 {
+    color: #7c3aed;
+}
+
+.btn {
+    background: linear-gradient(135deg, #8b5cf6, #c084fc);
+    color: white;
+}
