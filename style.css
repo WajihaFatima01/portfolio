@@ -496,4 +496,33 @@ h4 {
 #experience .experience-card {
     background: #ffffff !important;
     color: #333333 !important;
+}/* Education and Experience text visibility */
+#education,
+#experience {
+    background: #0b0e1c !important;
+}
+
+/* Make all text inside both sections visible */
+#education *,
+#experience * {
+    color: #333333 !important;
+}
+
+/* Headings purple */
+#education h1,
+#education h2,
+#education h3,
+#experience h1,
+#experience h2,
+#experience h3 {
+    color: #8b3dff !important;
+    font-weight: bold !important;
+}
+
+/* Keep cards white */
+#education .card,
+#experience .card,
+#education .education-card,
+#experience .experience-card {
+    background: white !important;
 }
