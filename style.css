@@ -430,4 +430,70 @@ h3 {
     background-color: #171b2b;
     color: #e5e7eb;
     border: 1px solid #30354a;
+}/* Education section fix */
+#education {
+    background: #0b0e1c !important;
+    color: white !important;
+}
+
+#education h2 {
+    color: white !important;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#education h3 {
+    color: #7838e8 !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#education p {
+    color: #333333 !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* White education card */
+#education .card,
+#education .education-card {
+    background: white !important;
+    color: #333333 !important;
+    border-radius: 20px;
+    padding: 30px;
+}/* Purple headings */
+h1,
+h2,
+h3,
+h4 {
+    color: #8b3dff !important;
+    font-weight: bold;
+}#education h2,
+#education h3 {
+    color: #8b3dff !important;
+    font-weight: bold;
+}/* Experience section fix */
+#experience {
+    background: #0b0e1c !important;
+    color: #333333 !important;
+}
+
+/* Experience heading purple */
+#experience h2,
+#experience h3 {
+    color: #8b3dff !important;
+    font-weight: bold;
+}
+
+/* Experience text visible */
+#experience p,
+#experience li {
+    color: #333333 !important;
+}
+
+/* White experience card */
+#experience .card,
+#experience .experience-card {
+    background: #ffffff !important;
+    color: #333333 !important;
 }
