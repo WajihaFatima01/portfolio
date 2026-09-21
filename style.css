@@ -1,7 +1,7 @@
 body{
     font-family: Arial,
 sans-serif;
-    background:#f4f4f4;
+    background:#f8f2ff;
     margin:0;
     padding:30px;
 }
@@ -11,17 +11,17 @@ sans-serif;
 }
 
 h1{
-    color:blue;
+    color:#7838e8;
 }
 
 h2{
-    color:#333;
+    color:#7838e8;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0d6efd;
+    background: #7838e8;
     padding:15px 30px;
 }
 nav h2{
