@@ -269,3 +269,40 @@ footer a {
         height: 140px;
     }
 }
+/* Portfolio Background Color */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(
+        135deg,
+        #f5f3ff,
+        #ede9fe,
+        #faf5ff
+    ) !important;
+    color: #1e1b4b;
+}
+
+/* Sections Background */
+section {
+    background: transparent;
+}
+
+/* Cards White */
+.project-card,
+.experience,
+.skill-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd6fe;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px
+        rgba(124, 58, 237, 0.12);
+}
+
+/* Footer */
+footer {
+    background: #2e1065;
+    color: white;
+}
