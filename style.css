@@ -71,7 +71,7 @@ nav a:hover{
     height:180px;
     border-radius:50%;
     object-fit:cover;
-    border:5px solid #0d6efd;
+    border:5px solid #7838e8;
     display:block;
     margin-bottom:20px auto;
 }
@@ -88,7 +88,7 @@ body {
 }
 
 .education h3{
-    color:#0d6efd;
+    color:#7838e8;
     margin-bottom:5px;
 }
 
@@ -99,14 +99,14 @@ p{
     height:20px;
     margin-bottom:15px;
 }footer{
-    background:#0d6efd;
+    background:#7838e8;
     color:white;
     text-align:center;
     padding:15px;
     margin-top:40px;
 }.btn{
     display: inline-block;
-    background: #0d6efd;
+    background: #7838e8;
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -332,4 +332,40 @@ h1, h2, h3 {
 .btn {
     background: linear-gradient(135deg, #8b5cf6, #c084fc);
     color: white;
+}
+/* One consistent purple theme */
+body {
+    background: #f8f2ff !important;
+}
+
+/* Header and navigation */
+nav {
+    background: #7838e8 !important;
+}
+
+header {
+    background: #7838e8 !important;
+}
+
+/* All headings */
+h1, h2, h3 {
+    color: #7838e8 !important;
+}
+
+/* Buttons */
+.btn, button {
+    background: #7838e8 !important;
+    color: white !important;
+    border: none;
+}
+
+/* Cards */
+.project-card, .card {
+    background: white !important;
+    border: 1px solid #e2d2ff;
+}
+
+/* Links */
+a {
+    color: #7838e8;
 }
