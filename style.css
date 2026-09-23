@@ -79,17 +79,29 @@ nav a:hover{
 section,
 body {
     line-height: 1.7;
-}.education{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    margin:20px 0;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}.education {
+    background: #0b0f1a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
 }
 
-.education h3{
-    color:#7838e8;
-    margin-bottom:5px;
+.education h2 {
+    color: #7838e8;
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    color: #7838e8;
+    margin-bottom: 8px;
+}
+
+.education p {
+    color: #7838e8;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+   
 }
 
 p{
@@ -525,4 +537,6 @@ h4 {
 #education .education-card,
 #experience .experience-card {
     background: white !important;
+}.education * {
+    color: #7838e8 !important;
 }
