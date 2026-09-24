@@ -87,19 +87,20 @@ body {
 }
 
 .education h2 {
-    color: #white;
+    color: #7c3cff;
     margin-bottom: 20px;
 }
 
 .education h3 {
-    color: #white;
+    color: #7c3cff;
     margin-bottom: 8px;
 }
 
 .education p {
-    color: #white;
+    color: white;
     font-size: 18px;
     margin-bottom: 20px;
+}
 }
    
 }
@@ -539,4 +540,16 @@ h4 {
     background: white !important;
 }.education * {
     color: #7838e8 !important;
+}
+/* Experience heading blue */
+#experience h2,
+#experience h3 {
+    color: #0d6efd !important;
+    font-weight: bold !important;
+}
+
+/* Experience text visible */
+#experience p,
+#experience li {
+    color: #333333 !important;
 }
