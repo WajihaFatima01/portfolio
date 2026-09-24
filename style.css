@@ -552,4 +552,21 @@ h4 {
 #experience p,
 #experience li {
     color: #333333 !important;
+}/* 1. Experience heading Blue rahega */
+#experience {
+  color: #3b82f6 !important; /* blue */
 }
+
+/* 2. AI Boot Web Development Intern heading Blue rahega */
+.experience h3 {
+  color: #3b82f6 !important;
+}
+
+/* 3. Uske neeche wala text White ho jayega */
+.experience p {
+  color: #ffffff !important;
+}#experience { color: #3b82f6 !important; }
+.experience p { color: white !important; }
+#education { color: #2563eb !important; }
+.education p { color: white !important; }
+
